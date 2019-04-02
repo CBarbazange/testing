@@ -1,0 +1,18 @@
+{
+	"mysql_bdd": {
+		"host": "remotemysql.com",
+		"db": "YkKuzdxgWT"
+	},
+	"dba_user": {
+		"username": "YkKuzdxgWT",
+		"password": "km93UW8K5V"
+	},
+	"scrap_user": {
+		"username": "YkKuzdxgWT",
+		"password": "km93UW8K5V"
+	},
+	"bdd_user": {
+		"username": "YkKuzdxgWT",
+		"password": "km93UW8K5V"
+	}
+}

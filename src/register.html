@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Java EE</title>
+<style type="text/css">
+	select, ul { overflow: auto; }
+	ul { list-style-type: none; margin: 0; padding: 0; overflow-x: hidden; }
+	li { margin: 0; padding: 0; }
+	label { display: block; color: WindowText; background-color: Window; margin: 0; padding: 0; width: 100%; }
+	label:hover { background-color: Highlight; color: HighlightText; }
+</style>
+</head>
+<body>
+	<form method="post" action="http://0.0.0.0:8992/register" accept-charset="utf-8">
+		Nom :					<input type="text"		name="nom">		<br>
+		Prenom :				<input type="text"		name="prenom">	<br>
+		E-mail :				<input type="text"		name="email">	<br>
+		Telephone :				<input type="text"		name="tel">		<br>
+		Nom de la société :		<input type="text"		name="societe">	<br>
+		<ul name="sources">
+			<li><input type="checkbox" name = "avisverifies"	value = 'source_checked'	unchecked>Avis Verifies	</li>
+			<li><input type="checkbox" name = "trustedshops"	value = "source_checked"	unchecked>Trusted Shops	</li>
+			<li><input type="checkbox" name = "trustpilot"		value = "source_checked"	unchecked>Trust Pilot	</li>
+			<li><input type="checkbox" name = "ekomi"			value = "source_checked"	unchecked>EKomi			</li>
+			<li><input type="checkbox" name = "custplace"		value = "source_checked"	unchecked>Custplace		</li>
+			<li><input type="checkbox" name = "autre"			value = "source_checked"	unchecked>Autre			</li>
+		</ul>
+		<button type="submit" value="Submit">S'inscrire</button>
+	</form>
+</body>
+</html>
